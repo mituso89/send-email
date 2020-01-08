@@ -1,6 +1,6 @@
 {
-    "python.pythonPath": "~/otherWork/send-email/bin/python",
-    "python.venvPath": "~/otherWork/send-email/",
+    "python.pythonPath": "~/pythonWorkspace/send-email/bin/python",
+    "python.venvPath": "~/pythonWorkspace/send-email",
     "python.linting.pylintUseMinimalCheckers": false,
     "python.formatting.provider": "autopep8",
     "editor.formatOnSave": false,

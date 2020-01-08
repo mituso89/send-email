@@ -1,10 +1,10 @@
 from utils.utils import init, create_queue
-import config.index as config
+from configs.config import default
 
 def sqs():
     sqs = init()
 
-    queue = sqs.get_queue_by_name(QueueName=config['custom']['queue_name'])
+    queue = sqs.get_queue_by_name(QueueName=default.queue_name)
 
     # Process messages by printing out body and optional author name
     for message in queue.receive_messages(MessageAttributeNames=['Author']):
